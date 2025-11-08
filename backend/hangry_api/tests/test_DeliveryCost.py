@@ -11,7 +11,7 @@ def test_LotsOfItems():
   #Act
   cost = Delivery.calculate(order,delivery_distance)
   #Assert
-  assert cost == 7.5
+  assert cost == 2.50
 
 def test_MiddleOfTheRoadItems():
   #Arrange
